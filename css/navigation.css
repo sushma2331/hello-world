@@ -1,0 +1,50 @@
+@media (min-width: 1200px) {
+
+
+  .is-fixed .navbar-light .navbar-nav .nav-link{
+    color: #000 !important;
+}
+.cd-header .logo_two{
+   display: none;
+}
+.cd-header.is-fixed .logo_two {
+    display: block;
+}
+.cd-header.is-fixed .logo_one {
+    display: none;
+}
+
+
+
+.cd-header {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  /* background: transparent; */
+  height: 80px !important;
+  width: 100%;
+  z-index: 3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ .cd-header.is-fixed {
+    /* when the user scrolls down, we hide the header right above the viewport */
+    position: fixed;
+    top: -80px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px #e3e3e3;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+  }
+  .cd-header.is-visible {
+    /* if the user changes the scrolling direction, we show the header */
+    -webkit-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+}

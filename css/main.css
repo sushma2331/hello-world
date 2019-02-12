@@ -1,0 +1,218 @@
+
+
+
+/* witty section */
+.witty_main{
+    margin: 2em 0;
+}
+.witty_app h1{
+    text-align: center;
+}
+.witty_app p{
+    text-align: center;
+}
+.tabview_cont{
+    margin-top:6em;
+    text-align: center;
+}
+.nav-link-color.active{
+    background-color: #3C3BEE !important;
+}
+.nav-link-color{
+    background-color: #FFFFFF;
+    margin-bottom: 1.5em;
+    box-shadow: 0px 4px 14px 0px #EEEEEE;
+    color: #50515F;
+}
+
+.tab_bg{
+    
+border: 2px solid #FEBB46;
+    
+border-radius: 5px;
+    
+padding: 3em;
+}
+.ability h2{
+    text-align: left;
+    
+}
+.ability p{
+    text-align: left;
+    width: 64%;
+    padding-top: 1em;
+    color: #252525;
+}
+.nav-top{
+    margin-top: 2em;
+}
+.secondtab_inside{padding: 2em 0 0 2em;}
+.description{
+    
+width: 80%;
+    
+height: auto;
+    
+background-color: #3c3bee;
+    
+color: #fff;
+    
+border-radius: 5px;
+    
+padding: 2em;
+}
+.description h5{
+
+text-align: left;
+}
+.description p{
+
+text-align: left;
+
+font-size: 15px;
+}
+
+.description-second{
+}
+
+/* witty section */
+
+
+
+
+/* games section */
+.games_main{
+    
+margin: 12em 0 5em 0;
+}
+.games_cont{
+    margin: 2em 0;
+}
+.stroop{
+    width: 25%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 50px 0px rgb(204, 204, 204);
+}
+/* games section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================   Mobile Responsive ( 576px)   ====================== */
+
+@media (max-width: 576px) and (min-width: 300px) { 
+.ability h2{
+    text-align: center;
+    font-size: 25px;
+}
+.ability p{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+.description{
+    width: 100%;
+}
+.description p{
+    font-size: 13px;
+
+}
+.secondtab_inside{
+    
+padding: 0;
+    
+width: 100%;
+}
+}
+
+/* ====================   Mobile Responsive ( 576px) end   ====================== */
+
+
+
+
+
+
+
+
+/* ====================   Tab Responsive ( 576px - 767px )   ====================== */
+
+@media (max-width: 767px) and (min-width: 577px) { 
+    
+}
+
+
+/* ====================   Tab Responsive ( 576px - 767px ) end   ====================== */
+
+
+
+
+
+
+
+
+/* ====================   Medium Screens ( 768px - 991px)   ====================== */
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .description{
+        width: 100%;
+    }
+
+ }
+   /* ====================   Medium Screens ( 768px - 991px) end  ====================== */
+
+
+
+
+
+
+
+
+/* ====================   Large Screens ( 992px - 1199px )   ====================== */
+
+@media (min-width: 992px) and (max-width: 1199px) { }
+
+
+/* ====================   Large Screens ( 992px - 1199px ) end   ====================== */
+
+
+
+
+
+
+
+
+/* ====================   Extra Large Screens ( min 1200px - max )   ====================== */
+
+@media (min-width: 1200px) { 
+ 
+
+}
+
+/* ====================   Extra Large Screens ( min 1200px - max ) end   ====================== */
