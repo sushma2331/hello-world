@@ -1,0 +1,49 @@
+<svg id="Group_1107" data-name="Group 1107" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        opacity: 0.13;
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        opacity: 0.29;
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.033" y1="0.874" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#05f2d3"/>
+      <stop offset="0.531" stop-color="#2e34d5"/>
+      <stop offset="1" stop-color="#8642df"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_691" data-name="Rectangle 691" class="cls-1" width="1920" height="1080"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.122" y1="0.715" x2="0.896" y2="0.4" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#35a79f"/>
+      <stop offset="1" stop-color="#1d51da"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1.035" y1="0.372" x2="0.088" y2="0.475" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2429c3"/>
+      <stop offset="1" stop-color="#7645ec"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_548" data-name="Path 548" class="cls-2" d="M0,0H1920V1080H0Z"/>
+  <g id="Mask_Group_18" data-name="Mask Group 18" class="cls-3">
+    <circle id="Ellipse_105" data-name="Ellipse 105" class="cls-4" cx="223.5" cy="223.5" r="223.5" transform="translate(-162 351)"/>
+    <rect id="Rectangle_588" data-name="Rectangle 588" class="cls-5" width="443" height="385" rx="19" transform="matrix(0.891, -0.454, 0.454, 0.891, 1609.707, 238.905)"/>
+  </g>
+</svg>
